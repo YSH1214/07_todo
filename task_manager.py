@@ -2,7 +2,7 @@ import json
 import os
 
 #작업을 저장할 파일 경로
-TASK_FILE = '07_todo/tasks.json'
+TASK_FILE = 'tasks.json'
 
 def load_tasks():
     if os.path.exists(TASK_FILE):
